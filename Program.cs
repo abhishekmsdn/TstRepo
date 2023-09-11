@@ -8,8 +8,7 @@ proxy.LoadFromConfig(bldr.Configuration.GetSection("Yarp"));
 
 // For programmatical definition
 // bldr.Services.AddTransient<IProxyConfigProvider, YarpProxyConfigProvider>();
-// bldr.Services.AddReverseProxy();
-//test
+// bldr.Services.AddReverseProxy();ss
 
 var app = bldr.Build();
 
